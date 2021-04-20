@@ -5,9 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NLog" Version="4.7.9" />
-    <PackageReference Include="NLog.Extensions.Logging" Version="1.7.2" />
-    <PackageReference Include="NLog.Config" Version="4.7.9" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.5" />
   </ItemGroup>
 </Project>
